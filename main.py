@@ -20,10 +20,20 @@ def sub(a,b): return a-b
 def mul(a,b): return a*b
 def div(a,b): return a/b
 def mod(a,b): return a%b
+
 def power(a,b): return a**b
 def my_sqrt(x): return math.sqrt(x)
+
 def my_floor(x): return math.floor(x)
 def my_ceil(x): return math.ceil(x)
+
+def my_sin(x): return math.sin(x)
+def my_cos(x): return math.cos(x)
+
+memory = 0
+def m_plus(x): global memory; memory += x
+
+
 
 if __name__ == "__main__":
     main()
