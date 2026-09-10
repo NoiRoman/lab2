@@ -1,3 +1,4 @@
+import math
 def main():
     print("=== Калькулятор ===")
     print("1. Сложение")
@@ -18,6 +19,11 @@ def add(a, b): return a + b
 def sub(a,b): return a-b
 def mul(a,b): return a*b
 def div(a,b): return a/b
+def mod(a,b): return a%b
+def power(a,b): return a**b
+def my_sqrt(x): return math.sqrt(x)
+def my_floor(x): return math.floor(x)
+def my_ceil(x): return math.ceil(x)
 
 if __name__ == "__main__":
     main()
