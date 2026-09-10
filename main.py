@@ -30,7 +30,7 @@ def m_clear():
 def main():
     global memory
     while True:
-        print("\n=== Калькулятор ===")
+        print("\n=== Калькулятор by Roman ===")
         print("1. Сложение")
         print("2. Вычитание")
         print("3. Умножение")
