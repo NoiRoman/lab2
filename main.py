@@ -14,5 +14,8 @@ def main():
     print("12. Работа с памятью")
     print("0. Выход")
 
+def add(a, b):
+    return a + b
+
 if __name__ == "__main__":
     main()
